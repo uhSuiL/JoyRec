@@ -1,0 +1,15 @@
+*.py    text eol=lf
+*.cpp   text eol=lf
+*.hpp   text eol=lf
+*.h     text eol=lf
+
+*.jso   text eol=lf
+*.yam   text eol=lf
+*.xml   text eol=lf
+
+*.md    text eol=lf
+*.txt   text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.gif   binary
