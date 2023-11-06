@@ -1,10 +1,21 @@
-# Template:
+# Template 1:
 # [submodule "submodule-name"]
 #     path = submodule-path
 #     url = submodule-url
 #     branch = submodule-branch
+#
+# Template 2:
+# [submodule "submodule-name"]
+#     ignore = dirty
+#     path = submodule-path
+#     url = submodule-url
 
 [submodule "pybind11"]
     ignore = dirty
     path = external/pybind11
     url = https://github.com/pybind/pybind11.git
+
+[submodule "fmt"]
+    ignore = dirty
+    path = external/fmt
+    url = https://github.com/fmtlib/fmt.git
